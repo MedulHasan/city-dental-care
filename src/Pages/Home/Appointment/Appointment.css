@@ -1,0 +1,10 @@
+.appointment-container {
+    background-color: #03A9F4;
+    padding: 30px;
+    color: #fff;
+}
+.appointment-btn {
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+}

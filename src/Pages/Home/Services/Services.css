@@ -1,0 +1,28 @@
+.our-services hr {
+    width: 100px;
+    margin: 0 auto;
+    height: 5px;
+    border-radius: 5px;
+    color: #2f03f4;
+}
+.services-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    justify-items: center;
+    margin: 50px 15%;
+    
+}
+.services-section img {
+    width: 300px;
+    height: 250px;
+}
+.service-single {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 0;
+    transition: box-shadow 500ms;
+}
+.service-single:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+}
