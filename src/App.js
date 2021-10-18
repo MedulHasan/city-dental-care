@@ -2,6 +2,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './context/AuthProvider';
 import Home from './Pages/Home/Home';
+import NotFound404 from './Pages/NotFound/NotFound';
+import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import SignIn from './Pages/SignIn/SignIn';
 import Signup from './Pages/SignUp/SignUp';
@@ -22,7 +24,11 @@ function App() {
             <Route path="/signup">
               <Signup />
             </Route>
+            <Route path="">
+              <NotFound404 />
+            </Route>
           </Switch>
+          <Footer />
         </BrowserRouter>
       </AuthProvider>
     </div>

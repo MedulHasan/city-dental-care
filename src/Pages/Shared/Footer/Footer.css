@@ -1,0 +1,51 @@
+.footer-container {
+    background-color: #233542;
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-about-us {
+    text-align: left;
+}
+ul {
+    padding-left: 0 !important;
+}
+.footer-about-us ul li {
+    list-style-type: none;
+    /* text-align: left; */
+    margin-bottom: 10px;
+    border-bottom: 0.5px solid;
+    padding-bottom: 10px;
+}
+.footer-social-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.footer-social-icon img {
+    width: 40px;
+    margin-right: 10px;
+}
+.footer-services {
+    text-align: left;
+}
+.footer-opening-hours {
+    text-align: left;
+}
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+.copyrignt {
+    background-color: #202E38;
+    text-align: left;
+    padding: 20px;
+    color: #4C5660;
+}
+.copyrignt p {
+    margin-left: 12%;
+}

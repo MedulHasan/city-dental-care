@@ -1,7 +1,5 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 import { HashLink } from 'react-router-hash-link';
 
 import Brand from '../../../images/brand/brand.png';
@@ -21,11 +19,11 @@ const Header = () => {
                     <Nav className="ms-auto">
                         <Nav.Link as={HashLink} to="/">Home</Nav.Link>
                         {
-                            user?.email ? (
+                            user.email ? (
                                 <>
                                     <Nav.Link className="logout mx-3" as={HashLink} to="/" onClick={logOut}>Logout</Nav.Link>
                                     <Navbar.Text>
-                                        Signed in as: <a href="#login">{user.displayName && user.displayName}</a>
+                                        Signed in as: <a href="#login">{user.email}</a>
                                     </Navbar.Text>
                                 </>
                             ) : (

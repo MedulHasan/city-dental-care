@@ -13,7 +13,8 @@ const SignIn = () => {
     const redirect_url = location.state?.form || '/';
 
     const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('')
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()
@@ -33,7 +34,18 @@ const SignIn = () => {
         e.preventDefault();
         signInUsingEmailAndPassword(email, password)
             .then(() => {
-                history.push(redirect_url)
+                history.push(redirect_url);
+            })
+            .catch((e) => {
+                if (!email && !password) {
+                    setError('Email and Password Field is Empty');
+                } else if (!email) {
+                    setError('Email Field is Empty');
+                } else if (!password) {
+                    setError('Password Field is Empty')
+                } else {
+                    setError('Invalid credential')
+                }
             })
     }
     return (
@@ -45,6 +57,7 @@ const SignIn = () => {
                 <Form onSubmit={handleSignInSubmit}>
                     <Form.Control onBlur={handleEmail} className="mb-3 l-form" type="email" placeholder="Enter email" />
                     <Form.Control onBlur={handlePassword} className="mb-3 l-form" type="password" placeholder="Password" />
+                    {error ? (<p className="error text-danger">{error}</p>) : ''}
                     <Button className="mb-2 w-100 l-form" variant="primary" type="submit">Log in</Button>
                 </Form>
                 <Link to="/signup">Create a new account?</Link>
