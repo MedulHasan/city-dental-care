@@ -9,7 +9,7 @@ import useAuth from '../../../hooks/useAuth';
 const Header = () => {
     const { user, logOut } = useAuth();
     return (
-        <Navbar className="header sticky-top" bg="light" expand="lg">
+        <Navbar className="header" bg="light" expand="lg">
             <Container>
                 <Navbar.Brand as={HashLink} to="/">
                     <img style={{ width: '100px' }} src={Brand} alt="" />
