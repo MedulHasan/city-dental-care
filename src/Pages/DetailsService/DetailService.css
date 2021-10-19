@@ -34,3 +34,27 @@
     text-align: left;
     align-items: center;
 }
+
+@media only screen and (min-width : 481px) and (max-width: 768px) {
+    .footer-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+}
+
+@media only screen and (min-width : 0px) and (max-width: 480px) {
+    .footer-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        padding: 40px 5%;
+    }
+    .footer-main img {
+        height: 200px;
+    }
+    .home-price {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

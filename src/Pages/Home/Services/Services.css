@@ -26,3 +26,39 @@
 .service-single:hover {
     box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
 }
+
+@media only screen and (min-width : 769px) and (max-width: 1279px) {
+    .services-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        justify-items: center;
+        margin: 50px 10%;
+        
+    }
+}
+@media only screen and (min-width : 481px) and (max-width: 768px) {
+    .services-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        justify-items: center;
+        margin: 30px 5%;
+        
+    }
+    .services-section img {
+        width: 210px;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width : 0px) and (max-width: 480px) {
+    .services-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        justify-items: center;
+        margin: 30px 5%;
+        
+    }
+}

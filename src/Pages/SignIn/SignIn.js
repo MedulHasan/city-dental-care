@@ -66,7 +66,6 @@ const SignIn = () => {
                 </p>
                 <div className="api-login">
                     <Button onClick={handleGoogleLogin} className="w-50" variant="outline-success">Google</Button>{' '}
-                    <Button className="w-50" variant="outline-warning">Github</Button>{' '}
                 </div>
             </div>
         </div>

@@ -49,3 +49,23 @@ ul {
 .copyrignt p {
     margin-left: 12%;
 }
+@media only screen and (min-width : 481px) and (max-width: 768px) {
+    .footer-opening-hours {
+        display: none;
+    }
+    .time {
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 0px) and (max-width: 480px) {
+    .footer-opening-hours {
+        display: none;
+    }
+    .time {
+        display: none;
+    }
+    .footer-services {
+        display: none;
+    }
+}
