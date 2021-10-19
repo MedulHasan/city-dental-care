@@ -1,0 +1,36 @@
+.header-container {
+    /* padding: 0 14%; */
+}
+.header-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 14%;
+    background-color: #03A9F4;
+    color: #fff;
+}
+.footer-main {
+    display: flex;
+    column-gap: 50px;
+    padding: 40px 14%;
+}
+.footer-main img {
+    height: 400px;
+}
+.footer-main-text  {
+    text-align: left;
+}
+.price-section {
+    background-color: #F9F9F9;
+    padding: 50px 10%;
+}
+.home-container98 {
+    background-color: #fff;
+    padding: 50px;
+}
+.home-price {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}

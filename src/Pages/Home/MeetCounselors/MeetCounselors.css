@@ -1,0 +1,16 @@
+.counselor-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+.counselor {
+    width: 300px;
+}
+.counselor-text {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.counselor img {
+    width: 299px;
+}

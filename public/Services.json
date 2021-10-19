@@ -3,36 +3,48 @@
         "id": 1,
         "name": "Dental Fillings",
         "img": "https://images.unsplash.com/photo-1619450565660-2a93ba8603fd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVudGFsJTIwZG9jdG9yc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
-        "description": "Regular cleanings and check ups are a very important part of your child’s dental hygiene and overall health care.  Routine x-rays and other diagnostic aids enable us to provide comprehensive dental carein very comfortable surroundings.Regular preventive care is the best way to protect your child’s smile, breath and overall health of their mouth.  We provide a full range of services that support your child’s  oral and overall health."
+        "description": "Regular cleanings and check ups are a very important part of your child’s dental hygiene and overall health care.  Routine x-rays and other diagnostic aids enable us to provide comprehensive dental carein very comfortable surroundings.Regular preventive care is the best way to protect your child’s smile, breath and overall health of their mouth.  We provide a full range of services that support your child’s  oral and overall health.",
+        "priceHome": 140,
+        "priceOffice": 120
     },
     {
         "id": 2,
         "name": "Root Canal Treatment",
         "img": "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGRlbnRhbCUyMGRvY3RvcnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
-        "description": "Welcome to Vistasol Dental. We are thrilled to have you visit us here at our website. The purpose of this site is to introduce you to our dental practice in Whittier, CA, its people, and the many cosmetic, general, and restorative dentistry services we offer. Here you will find information to Dr. Noushin Adhami & our friendly and professional staff."
+        "description": "Welcome to Vistasol Dental. We are thrilled to have you visit us here at our website. The purpose of this site is to introduce you to our dental practice in Whittier, CA, its people, and the many cosmetic, general, and restorative dentistry services we offer. Here you will find information to Dr. Noushin Adhami & our friendly and professional staff.",
+        "priceHome": 90,
+        "priceOffice": 75
     },
     {
         "id": 3,
         "name": "Teeth Whitening",
         "img": "https://images.unsplash.com/photo-1593022356269-609ed284b3c3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGRlbnRhbCUyMGRvY3RvcnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
-        "description": "Who doesn’t want whiter teeth in about and hour.  At Vistasol Dental we will examine your teeth to see if in-office whitening is right for you.  Research and clinical studies have consistently shown that whitening teeth with hydrogen peroxide gel under the supervision of a dentist is safe for teeth and gums."
+        "description": "Who doesn’t want whiter teeth in about and hour.  At Vistasol Dental we will examine your teeth to see if in-office whitening is right for you.  Research and clinical studies have consistently shown that whitening teeth with hydrogen peroxide gel under the supervision of a dentist is safe for teeth and gums.",
+        "priceHome": 150,
+        "priceOffice": 120
     },
     {
         "id": 4,
         "name": "Tooth Extracting",
         "img": "https://images.unsplash.com/photo-1588776814546-daab30f310ce?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlbnRhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
-        "description": "here has been so many more natural and aesthetic advances to the world of dentistry in the recent years.  We feel that there is no reason for anyone not to have the perfect smile.   Natural color restorations offers an aesthetic alternative to the old dark fillings of yesteryear. There are numerous natural looking options such as composite fillings which offer a stronger, natural looking and more wear-resistant alternative to silver and can be completed in just one short visit. Porcelain and composite onlays are another option and require two visits."
+        "description": "here has been so many more natural and aesthetic advances to the world of dentistry in the recent years.  We feel that there is no reason for anyone not to have the perfect smile.   Natural color restorations offers an aesthetic alternative to the old dark fillings of yesteryear. There are numerous natural looking options such as composite fillings which offer a stronger, natural looking and more wear-resistant alternative to silver and can be completed in just one short visit. Porcelain and composite onlays are another option and require two visits.",
+        "priceHome": 65,
+        "priceOffice": 50
     },
     {
         "id": 5,
         "name": "Routing Dental Exam",
         "img": "https://images.unsplash.com/photo-1606811951341-756fdd437682?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRlbnRhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
-        "description": "Veneers can take years off the appearance of your teeth, while correcting a variety of problems. They require a minimum of reduction of the natural tooth, (-generally not more than .5mm), they don’t change color, have a life span of 15-20 years, and the entire process can be completed in two visits. They are an excellent solution to problems such as tetracycline stains and translucency factors, which simple tooth whitening procedures can not correct. They can often correct problems of tooth alignment that otherwise would be corrected by braces."
+        "description": "Veneers can take years off the appearance of your teeth, while correcting a variety of problems. They require a minimum of reduction of the natural tooth, (-generally not more than .5mm), they don’t change color, have a life span of 15-20 years, and the entire process can be completed in two visits. They are an excellent solution to problems such as tetracycline stains and translucency factors, which simple tooth whitening procedures can not correct. They can often correct problems of tooth alignment that otherwise would be corrected by braces.",
+        "priceHome": 70,
+        "priceOffice": 60
     },
     {
         "id": 6,
         "name": "Orthodontics",
         "img": "https://images.unsplash.com/photo-1598256989809-394fa4f6cd26?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGRlbnRhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
-        "description": "here has been so many more natural and aesthetic advances to the world of dentistry in the recent years.  We feel that there is no reason for anyone not to have the perfect smile.   Natural color restorations offers an aesthetic alternative to the old dark fillings of yesteryear. There are numerous natural looking options such as composite fillings which offer a stronger, natural looking and more wear-resistant alternative to silver and can be completed in just one short visit. Porcelain and composite onlays are another option and require two visits."
+        "description": "here has been so many more natural and aesthetic advances to the world of dentistry in the recent years.  We feel that there is no reason for anyone not to have the perfect smile.   Natural color restorations offers an aesthetic alternative to the old dark fillings of yesteryear. There are numerous natural looking options such as composite fillings which offer a stronger, natural looking and more wear-resistant alternative to silver and can be completed in just one short visit. Porcelain and composite onlays are another option and require two visits.",
+        "priceHome": 140,
+        "priceOffice": 120
     }
 ]
