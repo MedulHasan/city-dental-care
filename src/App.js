@@ -1,6 +1,7 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './context/AuthProvider';
+import Blog from './Pages/Blog/Blog';
 import DetailService from './Pages/DetailsService/DetailService';
 import Home from './Pages/Home/Home';
 import NotFound404 from './Pages/NotFound/NotFound';
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <PrivateRoute path="/service-details/:id">
               <DetailService />
+            </PrivateRoute>
+            <PrivateRoute path="/blog">
+              <Blog />
             </PrivateRoute>
             <Route path="*">
               <NotFound404 />

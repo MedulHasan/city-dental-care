@@ -1,0 +1,37 @@
+.blog-banner {
+    background-image: url('../../images/blog/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    opacity: 0.6;
+    z-index: -999;
+}
+.blog-banner h1 {
+    text-align: left;
+    padding-top: 12%;
+    margin-left: 15%;
+    color: #2703f4;
+}
+.blog-banner hr {
+    width: 100px;
+    margin-left: 17%;
+    border-bottom: 5px solid rgb(0, 255, 42);
+}
+
+.figure {
+    /* display: flex; */
+    background-color: #1F263E;
+    color: #fff;
+    height: 90vh;
+    margin-left: 30%;
+    /* padding-top: 5%; */
+    padding-left: 20%;
+    text-align: left;
+}
+.figure .figure-image {
+    width: 600px;
+    margin-left: -600px;
+    margin-right: 50px;
+}

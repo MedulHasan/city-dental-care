@@ -6,12 +6,13 @@ import MeetCounselors from './MeetCounselors/MeetCounselors';
 import Services from './Services/Services';
 
 const Home = () => {
+    const dataUrl = 'Counselors.json';
     return (
         <div>
             {/* <Banner /> */}
             <Services />
             <Appointment />
-            <MeetCounselors />
+            <MeetCounselors dataUrl={dataUrl} text="Meet Our Counselors" />
         </div>
     );
 };

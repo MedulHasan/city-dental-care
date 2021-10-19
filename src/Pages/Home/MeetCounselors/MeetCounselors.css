@@ -1,7 +1,9 @@
 .counselor-container {
-    display: flex;
-    justify-content: center;
-    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+    margin: 0 5%;
 }
 .counselor {
     width: 300px;
