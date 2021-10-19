@@ -1,9 +1,12 @@
+.home-banner {
+    background-color: #6E95F3;
+}
 .slider {
-    height: 400px;
+    width: 300px;
 }
 .banner2 {
     width: 400px;
-    margin-top: -500px;
+    margin-top: -520px;
     margin-left: 50%;
 }
 .banner-text2 {

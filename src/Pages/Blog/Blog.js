@@ -7,7 +7,7 @@ import figImage from '../../images/blog/2.jpg'
 const Blog = () => {
     const dataUrl = 'News.json';
     return (
-        <div>
+        <div id="blog">
             <div className="blog-banner">
                 <h1>Our Blog</h1>
                 {/* <hr /> */}

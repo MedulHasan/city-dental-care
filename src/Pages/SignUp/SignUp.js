@@ -65,7 +65,7 @@ const Signup = () => {
     return (
         <div>
             {/* <AlertMessage show={show} alertMessage={alertMessage} /> */}
-            <div className="login-container">
+            <div className="login-container" id="signup">
                 <div className="login-form">
                     <div className="text-center">
                         <img src={loginLogo} alt="" className="mb-5" />

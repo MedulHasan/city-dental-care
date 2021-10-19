@@ -9,11 +9,11 @@ const DetailService = () => {
     const location = useLocation();
     const service = location.state.service;
     return (
-        <div className="header-container">
+        <div className="header-container" id="single-service">
             <header className="header-details">
                 <h2>{service.name}</h2>
                 <h6>
-                    <Link style={{ textDecoration: 'none', color: '#fff' }} to="/"><FontAwesomeIcon icon={faHome} />Home </Link>
+                    <Link style={{ textDecoration: 'none', color: '#fff' }} to="/#our-service"><FontAwesomeIcon icon={faHome} />Home </Link>
                     <span><FontAwesomeIcon icon={faChevronRight} /> {service.name}</span>
                 </h6>
             </header>

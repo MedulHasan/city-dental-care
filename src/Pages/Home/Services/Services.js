@@ -21,7 +21,7 @@ const Services = () => {
         })
     }
     return (
-        <>
+        <div id="our-service">
             <div className="our-services mt-4">
                 <h1>Our Services</h1>
                 <hr />
@@ -38,7 +38,8 @@ const Services = () => {
                         </div>
                     )
                 }
-            </div></>
+            </div>
+        </div>
     );
 };
 

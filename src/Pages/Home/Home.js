@@ -8,8 +8,8 @@ import Services from './Services/Services';
 const Home = () => {
     const dataUrl = 'Counselors.json';
     return (
-        <div>
-            {/* <Banner /> */}
+        <div id="home">
+            <Banner />
             <Services />
             <Appointment />
             <MeetCounselors dataUrl={dataUrl} text="Meet Our Counselors" />

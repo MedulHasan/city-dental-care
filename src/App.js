@@ -7,6 +7,7 @@ import Home from './Pages/Home/Home';
 import NotFound404 from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
+import Shop from './Pages/Shop/Shop';
 import PrivateRoute from './Pages/SignIn/PrivateRoute';
 import SignIn from './Pages/SignIn/SignIn';
 import Signup from './Pages/SignUp/SignUp';
@@ -32,6 +33,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/blog">
               <Blog />
+            </PrivateRoute>
+            <PrivateRoute path="/shop">
+              <Shop />
             </PrivateRoute>
             <Route path="*">
               <NotFound404 />
