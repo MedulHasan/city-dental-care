@@ -6,7 +6,6 @@ import { Button, Form } from 'react-bootstrap';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import useAuth from '../../hooks/useAuth';
-import AlertMessage from '../Shared/Alert/Alert';
 
 const Signup = () => {
     const auth = getAuth();
@@ -20,8 +19,6 @@ const Signup = () => {
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
     const [error, setError] = useState('');
-    const [show, setShow] = useState(false);
-    const [alertMessage, setAlertMessage] = useState('');
 
     const handleName = (e) => {
         setName(e.target.value)
@@ -47,15 +44,13 @@ const Signup = () => {
                 .then((result) => {
                     updateProfile(auth.currentUser, { displayName: name })
                         .then((result) => { })
-                    // console.log(result.user);
+                    console.log(result.user);
                     history.push(redirect_url)
                 })
                 .catch((e) => {
                     setError(e.message)
                 })
             setError('');
-            setShow(true);
-            setAlertMessage('Registation Success!')
 
         } else {
             setError("Password and confirm password not match");

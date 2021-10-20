@@ -6,6 +6,10 @@ import useAuth from '../../hooks/useAuth';
 import loginLogo from '../../images/brand/brand.png';
 import './SignIn.css';
 
+export const signInSuccess = () => {
+    return 'Login Successfully';
+}
+
 const SignIn = () => {
     const { signInUsingGoogle, signInUsingEmailAndPassword } = useAuth();
     const history = useHistory();
@@ -20,6 +24,9 @@ const SignIn = () => {
         signInUsingGoogle()
             .then(() => {
                 history.push(redirect_url)
+            })
+            .catch((e) => {
+
             })
     }
 

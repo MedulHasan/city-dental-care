@@ -17,8 +17,8 @@ function MyVerticallyCenteredModal(props) {
             </Modal.Header>
             <Modal.Body>
                 <form className="entre-form">
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
+                    <div className="mb-3">
+                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Name" />
                     </div>
                     <div className="row g-3">
                         <div className="col">
@@ -47,9 +47,9 @@ function MyVerticallyCenteredModal(props) {
                             <option value="3">Three</option>
                         </select>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Write something for your problem</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div className="mb-3">
+                        <label for="exampleFormControlTextarea1" className="form-label">Write something for your problem</label>
+                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                 </form>
             </Modal.Body>

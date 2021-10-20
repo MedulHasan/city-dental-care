@@ -11,6 +11,7 @@ import Shop from './Pages/Shop/Shop';
 import PrivateRoute from './Pages/SignIn/PrivateRoute';
 import SignIn from './Pages/SignIn/SignIn';
 import Signup from './Pages/SignUp/SignUp';
+import ScrollToTop from './ScrollToTop/ScrollToTop';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <AuthProvider>
         <BrowserRouter>
           <Header />
+          <ScrollToTop />
           <Switch>
             <Route exact path="/">
               <Home />
